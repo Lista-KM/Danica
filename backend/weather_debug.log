@@ -1,12 +1,12 @@
 Array
 (
-    [latitude] => 0.625
-    [longitude] => 35.375
-    [generationtime_ms] => 0.023007392883301
+    [latitude] => -1.25
+    [longitude] => 36.875
+    [generationtime_ms] => 0.034928321838379
     [utc_offset_seconds] => 0
     [timezone] => GMT
     [timezone_abbreviation] => GMT
-    [elevation] => 2143
+    [elevation] => 1624
     [current_units] => Array
         (
             [time] => iso8601
@@ -17,10 +17,60 @@ Array
 
     [current] => Array
         (
-            [time] => 2024-07-23T21:45
+            [time] => 2024-07-23T22:30
             [interval] => 900
-            [temperature_2m] => 14.4
-            [wind_speed_10m] => 2.8
+            [temperature_2m] => 14.2
+            [wind_speed_10m] => 4.1
         )
 
 )
+Weather Data: Array
+(
+    [latitude] => -1.25
+    [longitude] => 36.875
+    [generationtime_ms] => 0.015020370483398
+    [utc_offset_seconds] => 0
+    [timezone] => GMT
+    [timezone_abbreviation] => GMT
+    [elevation] => 1624
+    [current_units] => Array
+        (
+            [time] => iso8601
+            [interval] => seconds
+            [temperature_2m] => °C
+        )
+
+    [current] => Array
+        (
+            [time] => 2024-07-23T22:30
+            [interval] => 900
+            [temperature_2m] => 14.2
+        )
+
+)
+
+Weather Data: Array
+(
+    [latitude] => -1.25
+    [longitude] => 36.875
+    [generationtime_ms] => 0.025033950805664
+    [utc_offset_seconds] => 0
+    [timezone] => GMT
+    [timezone_abbreviation] => GMT
+    [elevation] => 1624
+    [current_units] => Array
+        (
+            [time] => iso8601
+            [interval] => seconds
+            [temperature_2m] => °C
+        )
+
+    [current] => Array
+        (
+            [time] => 2024-07-23T22:30
+            [interval] => 900
+            [temperature_2m] => 14.2
+        )
+
+)
+

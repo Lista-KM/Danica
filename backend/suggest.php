@@ -19,138 +19,68 @@ if ($result->num_rows > 0) {
     while ($row = $result->fetch_assoc()) {
         $items[] = $row;
     }
+} else {
+    echo "No items found.";
+    exit();
 }
 
-// Initialize variables for weather data and occasion
-$weather_error = "";
-$condition = 'mild'; // Default condition
-$temp = "N/A";
+// Fetch weather data
+$apiKey = "b43c3d5750ebfb55f2896e3c8ad79c8a"; // Replace with your actual API key
+$city = "nairobi"; // Your city
+$apiUrl = "http://api.openweathermap.org/data/2.5/weather?q={$city}&appid={$apiKey}&units=metric";
+
+$response = @file_get_contents($apiUrl);
+$weatherData = $response ? json_decode($response, true) : null;
+
+if ($weatherData && isset($weatherData['main']['temp'])) {
+    $temp = $weatherData['main']['temp'];
+    
+    if ($temp < 10) {
+        $condition = 'winter';
+    } elseif ($temp >= 10 && $temp < 20) {
+        $condition = 'spring_fall'; // Adjusted to include 'spring_fall'
+    } else {
+        $condition = 'summer';
+    }
+    $weather_error = null;
+} else {
+    $weather_error = "Weather data not available.";
+    $condition = null;
+}
+
+// Get selected occasion from POST request
+$selected_occasion = isset($_POST['occasion']) ? $_POST['occasion'] : '';
+
+// Initialize arrays for different occasions
+$occasion_items = [
+    'casual' => [],
+    'formal' => [],
+    'sports' => []
+];
+
+// Group items by occasion
+foreach ($items as $item) {
+    if ($item['category'] == $condition) {
+        if (isset($occasion_items[$item['occasion']])) {
+            $occasion_items[$item['occasion']][] = $item;
+        }
+    }
+}
+
+// Suggested outfit logic
 $suggested_outfit = [];
+$selected_types = [];
 
-// Default latitude and longitude
-$latitude = isset($_POST['latitude']) ? $_POST['latitude'] : '52.52'; 
-$longitude = isset($_POST['longitude']) ? $_POST['longitude'] : '13.41'; 
-
-// Weather API URL
-$weather_url = "https://api.open-meteo.com/v1/forecast?latitude=$latitude&longitude=$longitude&current=temperature_2m,wind_speed_10m";
-
-if ($latitude && $longitude) {
-    $weather_data = @file_get_contents($weather_url);
-
-    if ($weather_data === FALSE) {
-        $weather_error = "Could not retrieve weather data. Showing default suggestions.";
-    } else {
-        $weather_data = json_decode($weather_data, true);
-
-        // Log the weather data for debugging
-        file_put_contents('weather_debug.log', print_r($weather_data, true));
-
-        // Check if 'current' and 'temperature_2m' exist in the response
-        if (!isset($weather_data['current']['temperature_2m'])) {
-            $weather_error = "Incomplete weather data. Showing default suggestions.";
-        } else {
-            $temp = $weather_data['current']['temperature_2m'];
-
-            // Determine weather condition based on temperature
-            if ($temp < 10) {
-                $condition = 'cold';
-            } elseif ($temp >= 10 && $temp < 25) {
-                $condition = 'mild';
-            } else {
-                $condition = 'hot';
-            }
-        }
-    }
-}
-
-// Process form submission to get the occasion and suggest outfits
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $occasion = isset($_POST['occasion']) ? $_POST['occasion'] : '';
-
-    // Initialize variables to keep track of selected items
-    $chosen_types = [];
-    $dress = null;
-    $bottom = $top = $cardigan = null;
-
-    foreach ($items as $item) {
-        // Debugging: Log each item being processed
-        file_put_contents('items_debug.log', print_r($item, true), FILE_APPEND);
-
-        // Check if item fits the weather condition
-        if (($condition == 'hot' && $item['category'] == 'summer') ||
-            ($condition == 'mild' && $item['category'] == 'spring_fall') ||
-            ($condition == 'cold' && $item['category'] == 'winter')) {
-
-            if ($item['occasion'] == $occasion || $occasion == '') { // Match occasion if provided
-
-                // Handle dress separately
-                if ($item['category'] == 'dress') {
-                    $dress = $item;
-                } else {
-                    // Ensure only one item per type
-                    if (!in_array($item['category'], $chosen_types)) {
-                        $chosen_types[] = $item['category'];
-
-                        if ($item['category'] == 'bottom') {
-                            $bottom = $item;
-                        } elseif ($item['category'] == 'top') {
-                            $top = $item;
-                        } elseif ($item['category'] == 'cardigan') {
-                            $cardigan = $item;
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    // Debugging: Log chosen items
-    file_put_contents('chosen_items_debug.log', print_r([
-        'bottom' => $bottom,
-        'top' => $top,
-        'cardigan' => $cardigan,
-        'dress' => $dress
-    ], true), FILE_APPEND);
-
-    // Create suggested outfit based on the conditions
-    if ($dress) {
-        // For cold weather, add cardigan if available
-        $suggested_outfit[] = $dress;
-        if ($condition == 'cold' && $cardigan) {
-            $suggested_outfit[] = $cardigan;
-        }
-    } else {
-        // Combine top, bottom, and cardigan if applicable
-        if ($condition == 'cold') {
-            if ($bottom && $top) {
-                $suggested_outfit[] = $bottom;
-                $suggested_outfit[] = $top;
-                if ($cardigan) {
-                    $suggested_outfit[] = $cardigan;
-                }
-            } elseif ($top) {
-                $suggested_outfit[] = $top;
-            } elseif ($bottom) {
-                $suggested_outfit[] = $bottom;
-            }
-        } elseif ($condition == 'mild') {
-            if ($bottom && $top) {
-                $suggested_outfit[] = $bottom;
-                $suggested_outfit[] = $top;
-            } elseif ($top) {
-                $suggested_outfit[] = $top;
-            } elseif ($bottom) {
-                $suggested_outfit[] = $bottom;
-            }
-        } elseif ($condition == 'hot') {
-            if ($bottom && $top) {
-                $suggested_outfit[] = $bottom;
-                $suggested_outfit[] = $top;
-            } elseif ($top) {
-                $suggested_outfit[] = $top;
-            } elseif ($bottom) {
-                $suggested_outfit[] = $bottom;
-            }
+// Filter and select outfits based on occasion
+if ($selected_occasion && isset($occasion_items[$selected_occasion])) {
+    foreach ($occasion_items[$selected_occasion] as $item) {
+        if ($item['type'] == 'dresses') {
+            // If it's a dress, add it and stop further selection
+            $suggested_outfit[] = $item;
+            break;
+        } elseif (!in_array($item['type'], $selected_types)) {
+            $suggested_outfit[] = $item;
+            $selected_types[] = $item['type'];
         }
     }
 }
@@ -203,7 +133,7 @@ $conn->close();
                     <?php foreach ($suggested_outfit as $item): ?>
                         <li class="list-group-item">
                             <strong><?php echo htmlspecialchars($item['item_name']); ?></strong> -
-                            <?php echo htmlspecialchars($item['category']); ?> -
+                            <?php echo htmlspecialchars($item['type']); ?> -
                             <?php echo htmlspecialchars($item['color']); ?>
                             <br>
                             <img src="../uploads/<?php echo htmlspecialchars($item['image_path']); ?>" alt="<?php echo htmlspecialchars($item['item_name']); ?>" style="width: 100px;">
