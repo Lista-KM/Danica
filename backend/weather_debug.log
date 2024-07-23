@@ -1,0 +1,26 @@
+Array
+(
+    [latitude] => 0.625
+    [longitude] => 35.375
+    [generationtime_ms] => 0.023007392883301
+    [utc_offset_seconds] => 0
+    [timezone] => GMT
+    [timezone_abbreviation] => GMT
+    [elevation] => 2143
+    [current_units] => Array
+        (
+            [time] => iso8601
+            [interval] => seconds
+            [temperature_2m] => °C
+            [wind_speed_10m] => km/h
+        )
+
+    [current] => Array
+        (
+            [time] => 2024-07-23T21:45
+            [interval] => 900
+            [temperature_2m] => 14.4
+            [wind_speed_10m] => 2.8
+        )
+
+)

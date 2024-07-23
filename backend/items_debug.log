@@ -1,0 +1,1794 @@
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 18
+    [user_id] => 1
+    [item_name] => Top
+    [category] => spring_fall
+    [color] => Brown
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1290641744-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 18
+    [user_id] => 1
+    [item_name] => Top
+    [category] => spring_fall
+    [color] => Brown
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1290641744-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 18
+    [user_id] => 1
+    [item_name] => Top
+    [category] => spring_fall
+    [color] => Brown
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1290641744-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 18
+    [user_id] => 1
+    [item_name] => Top
+    [category] => spring_fall
+    [color] => Brown
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1290641744-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 11
+    [user_id] => 1
+    [item_name] => Pip
+    [category] => winter
+    [color] => Yellow
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1278802435-2048x2048.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 12
+    [user_id] => 1
+    [item_name] => Black leather Skirt
+    [category] => spring_fall
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1436346281-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 13
+    [user_id] => 1
+    [item_name] => Blue Flayer Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-837522088-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 14
+    [user_id] => 1
+    [item_name] => Black Blazer
+    [category] => winter
+    [color] => Black
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => formal
+    [image_path] => ../uploads/istockphoto-1092378606-612x612.jpg
+    [type] => cardigans
+)
+Array
+(
+    [id] => 15
+    [user_id] => 1
+    [item_name] => Pink Shiffon Sleeveless Top
+    [category] => summer
+    [color] => pink
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1218433002-612x612.jpg
+    [type] => tops
+)
+Array
+(
+    [id] => 16
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => spring_fall
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 17
+    [user_id] => 1
+    [item_name] => Denim Skirt
+    [category] => summer
+    [color] => Blue
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1170842960-612x612.jpg
+    [type] => bottoms
+)
+Array
+(
+    [id] => 18
+    [user_id] => 1
+    [item_name] => Top
+    [category] => spring_fall
+    [color] => Brown
+    [rating] => 10
+    [last_worn] => 
+    [occasion] => casual
+    [image_path] => ../uploads/istockphoto-1290641744-612x612.jpg
+    [type] => tops
+)

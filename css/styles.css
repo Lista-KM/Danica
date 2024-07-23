@@ -1,0 +1,21 @@
+/* Custom CSS styles for Danica */
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #ff69b4;
+    text-shadow: 2px 2px #000;
+}
+
+.welcome-text {
+    font-size: 1.8rem;
+    color: blue;
+}
+
+.wardrobe-image {
+    max-width: 200px;
+    height: auto;
+}
