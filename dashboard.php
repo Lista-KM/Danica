@@ -73,7 +73,7 @@ $conn->close();
     <div class="container mt-5">
         <h2 class="text-center welcome-text">Welcome to Your Wardrobe, <?php echo htmlspecialchars($_SESSION['user_name']); ?>!</h2>
         <a href="add_item.php" class="btn btn-primary">Add New Item</a>
-        <a href="backend/suggest.php" class="btn btn-secondary">Suggest Outfit</a>
+<a href="suggest.php" class="btn btn-secondary">Suggest Outfit</a>
         <div class="mt-4">
             <h3>Your Wardrobe</h3>
             <table class="table table-bordered">
