@@ -40,26 +40,64 @@ $conn->close();
     <!-- Custom Styles -->
     <link rel="stylesheet" href="../css/styles.css">
     <style>
+        body {
+            background-color: #fbeff7; /* Light pink background */
+        }
+        .navbar {
+            background-color: #ff69b4; /* Pink navbar background */
+        }
         .navbar-brand {
-            font-size: 1.5rem;
-            color: #ff69b4;
+            color: #ffffff;
             text-shadow: 2px 2px #000;
         }
         .welcome-text {
             font-size: 1.8rem;
-            color: blue;
+            color: #ff69b4; /* Pink text for welcome message */
+        }
+        .btn-primary {
+            background-color: #ff69b4; /* Pink button color */
+            border-color: #ff69b4; /* Pink button border */
+        }
+        .btn-primary:hover {
+            background-color: #ff85c0; /* Lighter pink on hover */
+            border-color: #ff85c0; /* Lighter pink border on hover */
+        }
+        .btn-secondary {
+            background-color: #f5a3b5; /* Lighter pink button color */
+            border-color: #f5a3b5; /* Lighter pink button border */
+        }
+        .btn-secondary:hover {
+            background-color: #f7b8c1; /* Even lighter pink on hover */
+            border-color: #f7b8c1; /* Even lighter pink border on hover */
+        }
+        .table thead th {
+            background-color: #ff69b4; /* Pink header background */
+            color: #ffffff; /* White text color */
+        }
+        .table tbody tr:nth-child(odd) {
+            background-color: #ffeef0; /* Light pink row background */
+        }
+        .table tbody tr:nth-child(even) {
+            background-color: #ffffff; /* White row background */
         }
         .wardrobe-image {
-            max-width: 200px; /* Adjust as needed */
+            max-width: 150px; /* Adjusted size */
             height: auto;
+            border-radius: 8px; /* Rounded corners */
         }
         .debug-output {
             color: red;
         }
+        .footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #ff69b4; /* Pink footer background */
+            color: #ffffff; /* White text color */
+        }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">Danica</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
@@ -73,7 +111,7 @@ $conn->close();
     <div class="container mt-5">
         <h2 class="text-center welcome-text">Welcome to Your Wardrobe, <?php echo htmlspecialchars($_SESSION['user_name']); ?>!</h2>
         <a href="add_item.php" class="btn btn-primary">Add New Item</a>
-<a href="suggest.php" class="btn btn-secondary">Suggest Outfit</a>
+        <a href="suggest.php" class="btn btn-secondary">Suggest Outfit</a>
         <div class="mt-4">
             <h3>Your Wardrobe</h3>
             <table class="table table-bordered">
