@@ -47,12 +47,12 @@ $conn->close();
             background-color: #ff69b4; /* Pink navbar background */
         }
         .navbar-brand {
-            color: #ffffff;
+            color: blue;
             text-shadow: 2px 2px #000;
         }
         .welcome-text {
             font-size: 1.8rem;
-            color: #ff69b4; /* Pink text for welcome message */
+            color: blue; /* Pink text for welcome message */
         }
         .btn-primary {
             background-color: #ff69b4; /* Pink button color */
@@ -94,6 +94,17 @@ $conn->close();
             background-color: #ff69b4; /* Pink footer background */
             color: #ffffff; /* White text color */
         }
+        .btn-light-blue {
+    background-color: #87CEFA; /* Light blue */
+    color: #fff; /* White text */
+    border-color: #87CEFA; /* Light blue border */
+}
+
+.btn-light-blue:hover {
+    background-color: #ADD8E6; /* Lighter blue on hover */
+    border-color: #ADD8E6; /* Lighter blue border on hover */
+}
+
     </style>
 </head>
 <body>
@@ -151,8 +162,8 @@ $conn->close();
                                 ?>
                             </td>
                             <td>
-                                <a href="edit_item.php?id=<?php echo htmlspecialchars($item['id']); ?>" class="btn btn-warning btn-sm">Edit</a>
-                                <a href="delete_item.php?id=<?php echo htmlspecialchars($item['id']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
+                            <a href="edit_item.php?id=<?php echo htmlspecialchars($item['id']); ?>" class="btn btn-light-blue btn-sm">Edit</a>
+                            <a href="delete_item.php?id=<?php echo htmlspecialchars($item['id']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
