@@ -70,6 +70,15 @@ $conn->close();
             background-color: #f7b8c1; /* Even lighter pink on hover */
             border-color: #f7b8c1; /* Even lighter pink border on hover */
         }
+        .btn-light-blue {
+            background-color: #87CEFA; /* Light blue */
+            color: #fff; /* White text */
+            border-color: #87CEFA; /* Light blue border */
+        }
+        .btn-light-blue:hover {
+            background-color: #ADD8E6; /* Lighter blue on hover */
+            border-color: #ADD8E6; /* Lighter blue border on hover */
+        }
         .table thead th {
             background-color: #ff69b4; /* Pink header background */
             color: #ffffff; /* White text color */
@@ -94,17 +103,6 @@ $conn->close();
             background-color: #ff69b4; /* Pink footer background */
             color: #ffffff; /* White text color */
         }
-        .btn-light-blue {
-    background-color: #87CEFA; /* Light blue */
-    color: #fff; /* White text */
-    border-color: #87CEFA; /* Light blue border */
-}
-
-.btn-light-blue:hover {
-    background-color: #ADD8E6; /* Lighter blue on hover */
-    border-color: #ADD8E6; /* Lighter blue border on hover */
-}
-
     </style>
 </head>
 <body>
@@ -113,7 +111,7 @@ $conn->close();
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="../backend/logout.php">Logout</a>
+                    <a class="nav-link" href="backend/logout.php">Logout</a>
                 </li>
             </ul>
         </div>
@@ -162,8 +160,9 @@ $conn->close();
                                 ?>
                             </td>
                             <td>
-                            <a href="edit_item.php?id=<?php echo htmlspecialchars($item['id']); ?>" class="btn btn-light-blue btn-sm">Edit</a>
-                            <a href="delete_item.php?id=<?php echo htmlspecialchars($item['id']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
+                                <a href="edit_item.php?id=<?php echo htmlspecialchars($item['id']); ?>" class="btn btn-light-blue btn-sm">Edit</a>
+                                <a href="share_outfit.php?id=<?php echo htmlspecialchars($item['id']); ?>" class="btn btn-info btn-sm">Share</a>
+                                <a href="delete_item.php?id=<?php echo htmlspecialchars($item['id']); ?>" class="btn btn-danger btn-sm" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
                             </td>
                         </tr>
                     <?php endforeach; ?>
