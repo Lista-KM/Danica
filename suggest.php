@@ -85,6 +85,24 @@ if ($selected_occasion && isset($occasion_items[$selected_occasion])) {
     }
 }
 
+// Save Outfit Logic
+if (isset($_POST['save_outfit'])) {
+    $outfit_details = json_encode($suggested_outfit); // Convert outfit array to JSON
+    $user_id = $_SESSION['user_id'];
+
+    $sql = "INSERT INTO saved_outfits (user_id, outfit_details) VALUES (?, ?)";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("is", $user_id, $outfit_details);
+
+    if ($stmt->execute()) {
+        echo "Outfit saved successfully!";
+    } else {
+        echo "Error saving outfit: " . $conn->error;
+    }
+
+    $stmt->close();
+}
+
 $conn->close();
 ?>
 
@@ -137,6 +155,24 @@ $conn->close();
     </style>
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Danica</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="dashboard.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="logout.php">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="container mt-5">
         <?php if ($weather_error): ?>
             <div class="alert alert-danger" role="alert">
@@ -171,36 +207,35 @@ $conn->close();
                             <?php echo htmlspecialchars($item['type']); ?> -
                             <?php echo htmlspecialchars($item['color']); ?>
                             <br>
-                            <img src="uploads/<?php echo htmlspecialchars($item['image_path']); ?>" alt="<?php echo htmlspecialchars($item['item_name']); ?>" style="width: 100px; border-radius: 8px;">
+                            <img src="uploads/<?php echo htmlspecialchars($item['image_path']); ?>" alt="<?php echo htmlspecialchars($item['item_name']); ?>" style="width: 100px;">
                         </li>
                     <?php endforeach; ?>
                 </ul>
-                <button type="button" class="btn btn-secondary mt-3" onclick="document.querySelector('.list-group').style.display='none';">Close</button>
             <?php else: ?>
-                <p>No suitable outfits found for the selected occasion and current weather.</p>
+                <p>No suitable outfit found for the selected occasion.</p>
             <?php endif; ?>
         </div>
+
+        <!-- Save outfit form -->
+        <form action="suggest.php" method="post" class="mt-4">
+            <input type="hidden" name="save_outfit" value="1">
+            <button type="submit" class="btn btn-secondary">Save Outfit</button>
+        </form>
     </div>
 
     <!-- Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Geolocation Script -->
+
+    <!-- Fetch and send location -->
     <script>
-        document.addEventListener("DOMContentLoaded", function() {
-            if (navigator.geolocation) {
-                navigator.geolocation.getCurrentPosition(function(position) {
-                    document.getElementById('latitude').value = position.coords.latitude;
-                    document.getElementById('longitude').value = position.coords.longitude;
-                }, function(error) {
-                    console.error('Error getting geolocation:', error);
-                    alert("Unable to retrieve your location. Please check your browser's location settings.");
-                });
-            } else {
-                alert("Geolocation is not supported by this browser.");
-            }
-        });
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                document.getElementById('latitude').value = position.coords.latitude;
+                document.getElementById('longitude').value = position.coords.longitude;
+            });
+        }
     </script>
 </body>
 </html>

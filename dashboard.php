@@ -110,9 +110,13 @@ $conn->close();
         <a class="navbar-brand" href="#">Danica</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
+            <li class="nav-item">
+                    <a class="nav-link" href="profile.php">Profile</a>
+                </li>   
+            <li class="nav-item">
                     <a class="nav-link" href="backend/logout.php">Logout</a>
                 </li>
+                
             </ul>
         </div>
     </nav>
@@ -121,6 +125,7 @@ $conn->close();
         <h2 class="text-center welcome-text">Welcome to Your Wardrobe, <?php echo htmlspecialchars($_SESSION['user_name']); ?>!</h2>
         <a href="add_item.php" class="btn btn-primary">Add New Item</a>
         <a href="suggest.php" class="btn btn-secondary">Suggest Outfit</a>
+       <!-- <a href="view_saved_outfits.php" class="btn btn-light-blue">Saved Outfits</a>-->
         <div class="mt-4">
             <h3>Your Wardrobe</h3>
             <table class="table table-bordered">

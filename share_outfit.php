@@ -39,7 +39,7 @@ $share_method = isset($_POST['share_method']) ? htmlspecialchars($_POST['share_m
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && $share_method) {
     $item_name = urlencode($outfit['item_name']);
     $item_image = urlencode("uploads/" . $outfit['image_path']);
-    $item_url = urlencode("http://yourwebsite.com/uploads/" . $outfit['image_path']);
+    $item_url = urlencode("http://yourwebsite.com/outfit.php?id=$outfit_id"); // Update this URL to the correct page
     $message = "Check out this outfit: $item_name";
 
     switch ($share_method) {
@@ -49,9 +49,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $share_method) {
         case 'twitter':
             $share_url = "https://twitter.com/intent/tweet?text=$message&url=$item_url";
             break;
-        case 'linkedin':
-            $share_url = "https://www.linkedin.com/sharing/share-offsite/?url=$item_url";
+        case 'whatsapp':
+            $share_url = "https://api.whatsapp.com/send?text=$message $item_url";
             break;
+        
         default:
             echo "Invalid share method.";
             exit();
@@ -61,6 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $share_method) {
     exit();
 }
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -97,7 +99,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $share_method) {
                             <option value="" disabled selected>Select share method</option>
                             <option value="facebook">Facebook</option>
                             <option value="twitter">Twitter</option>
-                            <option value="linkedin">LinkedIn</option>
+                            <option value="whatsapp">WhatsApp</option>
+                            <option value="instagram">Instagram</option>
                         </select>
                     </div>
                     <button type="submit" class="btn btn-primary">Share</button>
