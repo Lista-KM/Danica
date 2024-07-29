@@ -25,8 +25,8 @@ if ($result->num_rows > 0) {
 }
 
 // Fetch weather data
-$apiKey = "b43c3d5750ebfb55f2896e3c8ad79c8a"; // Replace with your actual API key
-$city = "nairobi"; // Your city
+$apiKey = "b43c3d5750ebfb55f2896e3c8ad79c8a"; 
+$city = "kapsabet"; 
 $apiUrl = "http://api.openweathermap.org/data/2.5/weather?q={$city}&appid={$apiKey}&units=metric";
 
 $response = @file_get_contents($apiUrl);
@@ -38,7 +38,7 @@ if ($weatherData && isset($weatherData['main']['temp'])) {
     if ($temp < 10) {
         $condition = 'winter';
     } elseif ($temp >= 10 && $temp < 20) {
-        $condition = 'spring_fall'; // Adjusted to include 'spring_fall'
+        $condition = 'spring_fall'; 
     } else {
         $condition = 'summer';
     }
@@ -88,7 +88,7 @@ if ($selected_occasion && isset($occasion_items[$selected_occasion])) {
 
 // Save Outfit Logic
 if (isset($_POST['save_outfit'])) {
-    $outfit_details = json_encode($suggested_outfit); // Convert outfit array to JSON
+    $outfit_details = json_encode($suggested_outfit); 
     $user_id = $_SESSION['user_id'];
 
     $sql = "INSERT INTO saved_outfits (user_id, outfit_details) VALUES (?, ?)";
@@ -121,37 +121,37 @@ $conn->close();
     <link rel="stylesheet" href="../css/styles.css">
     <style>
         body {
-            background-color: #fbeff7; /* Light pink background */
+            background-color: #fbeff7; 
         }
         .container {
-            background-color: #ffffff; /* White background for content */
-            border-radius: 8px; /* Rounded corners */
+            background-color: #ffffff; 
+            border-radius: 8px; 
             padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
         }
         .btn-primary {
-            background-color: #ff69b4; /* Pink button color */
-            border-color: #ff69b4; /* Pink button border */
+            background-color: #ff69b4; 
+            border-color: #ff69b4; 
         }
         .btn-primary:hover {
-            background-color: #ff85c0; /* Lighter pink on hover */
-            border-color: #ff85c0; /* Lighter pink border on hover */
+            background-color: #ff85c0; 
+            border-color: #ff85c0; 
         }
         .btn-secondary {
-            background-color: #f5a3b5; /* Lighter pink button color */
-            border-color: #f5a3b5; /* Lighter pink button border */
+            background-color: #f5a3b5; 
+            border-color: #f5a3b5;
         }
         .btn-secondary:hover {
-            background-color: #f7b8c1; /* Even lighter pink on hover */
-            border-color: #f7b8c1; /* Even lighter pink border on hover */
+            background-color: #f7b8c1; 
+            border-color: #f7b8c1; 
         }
         .list-group-item {
-            border: 1px solid #ff69b4; /* Pink border for list items */
-            border-radius: 8px; /* Rounded corners */
+            border: 1px solid #ff69b4; 
+            border-radius: 8px; 
         }
         .alert-danger {
-            background-color: #f8d7da; /* Light pink background for alerts */
-            border-color: #f5c6cb; /* Light pink border for alerts */
+            background-color: #f8d7da; 
+            border-color: #f5c6cb; 
         }
     </style>
 </head>

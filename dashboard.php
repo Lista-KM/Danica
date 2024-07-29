@@ -33,18 +33,15 @@ $conn->close();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danica - Dashboard</title>
-    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Tailwind CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet">
-    <!-- Custom Styles -->
     <link rel="stylesheet" href="../css/styles.css">
     <style>
         body {
-            background-color: #fbeff7; /* Light pink background */
+            background-color: #fbeff7;
         }
         .navbar {
-            background-color: #ff69b4; /* Pink navbar background */
+            background-color: #ff69b4; 
         }
         .navbar-brand {
             color: blue;
@@ -52,47 +49,47 @@ $conn->close();
         }
         .welcome-text {
             font-size: 1.8rem;
-            color: blue; /* Pink text for welcome message */
+            color: blue; 
         }
         .btn-primary {
-            background-color: #ff69b4; /* Pink button color */
-            border-color: #ff69b4; /* Pink button border */
+            background-color: #ff69b4; 
+            border-color: #ff69b4; 
         }
         .btn-primary:hover {
-            background-color: #ff85c0; /* Lighter pink on hover */
-            border-color: #ff85c0; /* Lighter pink border on hover */
+            background-color: #ff85c0; 
+            border-color: #ff85c0; 
         }
         .btn-secondary {
-            background-color: #f5a3b5; /* Lighter pink button color */
-            border-color: #f5a3b5; /* Lighter pink button border */
+            background-color: #f5a3b5; 
+            border-color: #f5a3b5; 
         }
         .btn-secondary:hover {
-            background-color: #f7b8c1; /* Even lighter pink on hover */
-            border-color: #f7b8c1; /* Even lighter pink border on hover */
+            background-color: #f7b8c1; 
+            border-color: #f7b8c1; 
         }
         .btn-light-blue {
-            background-color: #87CEFA; /* Light blue */
-            color: #fff; /* White text */
-            border-color: #87CEFA; /* Light blue border */
+            background-color: #87CEFA; 
+            color: #fff; 
+            border-color: #87CEFA; 
         }
         .btn-light-blue:hover {
-            background-color: #ADD8E6; /* Lighter blue on hover */
-            border-color: #ADD8E6; /* Lighter blue border on hover */
+            background-color: #ADD8E6; 
+            border-color: #ADD8E6; 
         }
         .table thead th {
-            background-color: #ff69b4; /* Pink header background */
-            color: #ffffff; /* White text color */
+            background-color: #ff69b4; 
+            color: #ffffff; 
         }
         .table tbody tr:nth-child(odd) {
-            background-color: #ffeef0; /* Light pink row background */
+            background-color: #ffeef0; 
         }
         .table tbody tr:nth-child(even) {
-            background-color: #ffffff; /* White row background */
+            background-color: #ffffff; 
         }
         .wardrobe-image {
-            max-width: 150px; /* Adjusted size */
+            max-width: 150px; 
             height: auto;
-            border-radius: 8px; /* Rounded corners */
+            border-radius: 8px; 
         }
         .debug-output {
             color: red;
@@ -100,8 +97,8 @@ $conn->close();
         .footer {
             text-align: center;
             padding: 1rem;
-            background-color: #ff69b4; /* Pink footer background */
-            color: #ffffff; /* White text color */
+            background-color: #ff69b4; 
+            color: #ffffff; 
         }
     </style>
 </head>
@@ -110,13 +107,12 @@ $conn->close();
         <a class="navbar-brand" href="#">Danica</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link" href="profile.php">Profile</a>
                 </li>   
-            <li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link" href="backend/logout.php">Logout</a>
                 </li>
-                
             </ul>
         </div>
     </nav>
@@ -125,7 +121,7 @@ $conn->close();
         <h2 class="text-center welcome-text">Welcome to Your Wardrobe, <?php echo htmlspecialchars($_SESSION['user_name']); ?>!</h2>
         <a href="add_item.php" class="btn btn-primary">Add New Item</a>
         <a href="suggest.php" class="btn btn-secondary">Suggest Outfit</a>
-       <!-- <a href="view_saved_outfits.php" class="btn btn-light-blue">Saved Outfits</a>-->
+        <a href="calendar.php" class="btn btn-light-blue">View My Calendar</a>
         <div class="mt-4">
             <h3>Your Wardrobe</h3>
             <table class="table table-bordered">

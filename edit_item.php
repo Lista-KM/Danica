@@ -66,43 +66,40 @@ $conn->close();
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Item - Danica</title>
-    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Tailwind CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet">
-    <!-- Custom Styles -->
     <link rel="stylesheet" href="../css/styles.css">
     <style>
         body {
-            background-color: #fbeff7; /* Light pink background */
+            background-color: #fbeff7; 
         }
         .container {
-            background-color: #ffffff; /* White background for content */
-            border-radius: 8px; /* Rounded corners */
+            background-color: #ffffff; 
+            border-radius: 8px; 
             padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
         }
         .btn-primary {
-            background-color: #ff69b4; /* Pink button color */
-            border-color: #ff69b4; /* Pink button border */
+            background-color: #ff69b4; 
+            border-color: #ff69b4; 
         }
         .btn-primary:hover {
-            background-color: #ff85c0; /* Lighter pink on hover */
-            border-color: #ff85c0; /* Lighter pink border on hover */
+            background-color: #ff85c0; 
+            border-color: #ff85c0; 
         }
         .btn-secondary {
-            background-color: #f5a3b5; /* Lighter pink button color */
-            border-color: #f5a3b5; /* Lighter pink button border */
+            background-color: #f5a3b5; 
+            border-color: #f5a3b5; 
         }
         .btn-secondary:hover {
-            background-color: #f7b8c1; /* Even lighter pink on hover */
-            border-color: #f7b8c1; /* Even lighter pink border on hover */
+            background-color: #f7b8c1; 
+            border-color: #f7b8c1; 
         }
         .form-group label {
-            color: #ff69b4; /* Pink label color */
+            color: #ff69b4; 
         }
         .form-control {
-            border-color: #ff69b4; /* Pink border for inputs */
+            border-color: #ff69b4; 
         }
     </style>
 </head>

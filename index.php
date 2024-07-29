@@ -4,23 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danica - Welcome</title>
-    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Tailwind CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet">
-    <!-- Font Awesome for Icons -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-    <!-- Custom Styles -->
     <link rel="stylesheet" href="css/styles.css">
     <style>
         body {
             font-family: 'Helvetica', sans-serif;
         }
         .navbar {
-            background-color: #ffc0cb; /* Light Pink */
+            background-color: #ffc0cb; 
         }
         .navbar-brand, .nav-link {
-            color: #000000 !important; /* Black */
+            color: #000000 !important; 
         }
         .hero-section {
             background-image: url();
@@ -32,48 +28,48 @@
         .hero-section h1 {
             font-size: 3rem;
             font-weight: bold;
-            color: white; /* Hot Pink */
+            color: white; 
         }
         .hero-section p {
             font-size: 1.5rem;
             margin: 20px 0;
-            color: #add8e6; /* Light Blue */
+            color: #add8e6; 
         }
         .btn-primary {
-            background-color: #ff69b4; /* Hot Pink */
+            background-color: #ff69b4; 
             border: none;
         }
         .btn-secondary {
-            background-color: #add8e6; /* Light Blue */
+            background-color: #add8e6; 
             border: none;
         }
         .features i {
-            color: #ff69b4; /* Hot Pink */
+            color: #ff69b4; 
         }
         .features h3 {
-            color: #000000; /* Black */
+            color: #000000; 
         }
         .features p {
-            color: #6c757d; /* Gray */
+            color: #6c757d; 
         }
         .testimonial blockquote {
-            color: #000000; /* Black */
+            color: #000000; 
         }
         .testimonial footer {
-            color: #ff69b4; /* Hot Pink */
+            color: #ff69b4; 
         }
         .cta-section {
-            background-color: #add8e6; /* Light Blue */
+            background-color: #add8e6; 
             color: black;
             padding: 50px 0;
         }
         .footer {
-            background-color: #ffc0cb; /* Light Pink */
-            color: #000000; /* Black */
+            background-color: #ffc0cb; 
+            color: #000000; 
             padding: 20px 0;
         }
         .footer a {
-            color: #ff69b4; /* Hot Pink */
+            color: #ff69b4; 
         }
     </style>
 </head>

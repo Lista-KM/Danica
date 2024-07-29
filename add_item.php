@@ -4,23 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Danica - Add New Wardrobe Item</title>
-    <!-- Bootstrap CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Tailwind CSS -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet">
-    <!-- Custom Styles -->
     <link rel="stylesheet" href="css/styles.css">
     <style>
         .btn-theme {
-            background-color: #ff69b4; /* Pink color */
+            background-color: #ff69b4; 
             color: #fff;
             border: none;
         }
         .btn-theme:hover {
-            background-color: #ff1493; /* Darker pink on hover */
+            background-color: #ff1493; 
         }
         .form-label {
-            color: #ff69b4; /* Pink color */
+            color: #ff69b4; 
         }
         .form-container {
             max-width: 600px;
@@ -29,7 +26,7 @@
             border: 1px solid #ddd;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            background-color: #fff; /* White background for form */
+            background-color: #fff; 
         }
     </style>
 </head>
