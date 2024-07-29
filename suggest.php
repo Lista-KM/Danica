@@ -73,6 +73,7 @@ $selected_types = [];
 
 // Filter and select outfits based on occasion
 if ($selected_occasion && isset($occasion_items[$selected_occasion])) {
+    shuffle($occasion_items[$selected_occasion]); // Randomize items
     foreach ($occasion_items[$selected_occasion] as $item) {
         if ($item['type'] == 'dresses') {
             // If it's a dress, add it and stop further selection
@@ -221,21 +222,17 @@ $conn->close();
             <input type="hidden" name="save_outfit" value="1">
             <button type="submit" class="btn btn-secondary">Save Outfit</button>
         </form>
+
+        <!-- Resuggest outfit form -->
+        <form action="suggest.php" method="post" class="mt-4">
+            <input type="hidden" name="occasion" value="<?php echo htmlspecialchars($selected_occasion); ?>">
+            <button type="submit" class="btn btn-primary">Suggest Another Outfit</button>
+        </form>
     </div>
 
-    <!-- Bootstrap JS -->
+    <!-- Bootstrap and jQuery scripts -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <!-- Fetch and send location -->
-    <script>
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(function(position) {
-                document.getElementById('latitude').value = position.coords.latitude;
-                document.getElementById('longitude').value = position.coords.longitude;
-            });
-        }
-    </script>
 </body>
 </html>
