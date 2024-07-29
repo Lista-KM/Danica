@@ -8,6 +8,25 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5f5; 
+        }
+        .login-container {
+            max-width: 400px;
+            width: 100%; 
+            padding: 2rem;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: #fff; 
+        }
         .btn-theme {
             background-color: #ff69b4; 
             color: #fff;
@@ -15,14 +34,6 @@
         }
         .btn-theme:hover {
             background-color: #ff1493; 
-        }
-        .login-container {
-            max-width: 400px;
-            margin: auto;
-            padding: 2rem;
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         .form-label {
             color: #ff69b4; 
