@@ -47,9 +47,9 @@ $user_id = $_SESSION['user_id'];
         <a class="navbar-brand" href="#">Danica</a>
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="profile.php">Profile</a>
-                </li>   
+            <li class="nav-item">
+                    <a class="nav-link" href="dashboard.php">Home</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="backend/logout.php">Logout</a>
                 </li>

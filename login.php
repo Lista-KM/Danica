@@ -38,6 +38,15 @@
         .form-label {
             color: #ff69b4; 
         }
+        .btn-back {
+            background-color: #007bff; 
+            color: #fff;
+            border: none;
+            margin-top: 1rem;
+        }
+        .btn-back:hover {
+            background-color: #0056b3; 
+        }
     </style>
 </head>
 <body class="bg-gray-100">
@@ -54,6 +63,7 @@
             </div>
             <button type="submit" class="btn btn-theme btn-block">Login</button>
         </form>
+        <a href="index.php" class="btn btn-back btn-block">Back to Home</a>
     </div>
 
     <!-- Bootstrap JS -->
